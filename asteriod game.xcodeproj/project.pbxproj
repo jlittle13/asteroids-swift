@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB10C23423F2591100D80B18 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10C23323F2591100D80B18 /* GameOverScene.swift */; };
+		AB80F07023F7B87B005CD343 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80F06F23F7B87B005CD343 /* MainMenu.swift */; };
+		AB80F07423F7B9B7005CD343 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB80F07323F7B9B7005CD343 /* MainMenu.sks */; };
+		AB80F07923F7C071005CD343 /* play-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80F07823F7C071005CD343 /* play-btn.png */; };
+		AB80F07B23F7C372005CD343 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80F07A23F7C372005CD343 /* Button.swift */; };
+		AB80F07D23F7C878005CD343 /* ufo-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB80F07C23F7C878005CD343 /* ufo-bg.jpg */; };
+		AB80F07F23F7DC54005CD343 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = AB80F07E23F7DC54005CD343 /* bullet.png */; };
 		ABBBE22B23EFDEC40052AA54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBE22A23EFDEC40052AA54 /* AppDelegate.swift */; };
 		ABBBE22D23EFDEC40052AA54 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE22C23EFDEC40052AA54 /* GameScene.sks */; };
 		ABBBE22F23EFDEC40052AA54 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE22E23EFDEC40052AA54 /* Actions.sks */; };
@@ -17,6 +24,9 @@
 		ABBBE23B23EFDEC50052AA54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE23923EFDEC50052AA54 /* LaunchScreen.storyboard */; };
 		ABBBE24623EFDEC50052AA54 /* asteriod_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBE24523EFDEC50052AA54 /* asteriod_gameTests.swift */; };
 		ABBBE25123EFDEC50052AA54 /* asteriod_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBBE25023EFDEC50052AA54 /* asteriod_gameUITests.swift */; };
+		ABBBE26523EFDFCB0052AA54 /* ufo.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE26423EFDFCB0052AA54 /* ufo.png */; };
+		ABBBE26B23EFE0400052AA54 /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE26A23EFE0400052AA54 /* starfield.sks */; };
+		ABBBE26F23EFEDB40052AA54 /* alien_enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBBE26E23EFEDB40052AA54 /* alien_enemy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB10C23323F2591100D80B18 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		AB80F06F23F7B87B005CD343 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		AB80F07323F7B9B7005CD343 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		AB80F07823F7C071005CD343 /* play-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "play-btn.png"; path = "../../../play-btn.png"; sourceTree = "<group>"; };
+		AB80F07A23F7C372005CD343 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		AB80F07C23F7C878005CD343 /* ufo-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ufo-bg.jpg"; path = "../../../ufo-bg.jpg"; sourceTree = "<group>"; };
+		AB80F07E23F7DC54005CD343 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = ../../../bullet.png; sourceTree = "<group>"; };
 		ABBBE22723EFDEC40052AA54 /* asteriod game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asteriod game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBBE22A23EFDEC40052AA54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABBBE22C23EFDEC40052AA54 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +70,9 @@
 		ABBBE24C23EFDEC50052AA54 /* asteriod gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "asteriod gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBBE25023EFDEC50052AA54 /* asteriod_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asteriod_gameUITests.swift; sourceTree = "<group>"; };
 		ABBBE25223EFDEC50052AA54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBBE26423EFDFCB0052AA54 /* ufo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ufo.png; path = ../../../ufo.png; sourceTree = "<group>"; };
+		ABBBE26A23EFE0400052AA54 /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
+		ABBBE26E23EFEDB40052AA54 /* alien_enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alien_enemy.png; path = ../../../alien_enemy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +123,7 @@
 		ABBBE22923EFDEC40052AA54 /* asteriod game */ = {
 			isa = PBXGroup;
 			children = (
+				ABBBE25F23EFDF0B0052AA54 /* rsc */,
 				ABBBE22A23EFDEC40052AA54 /* AppDelegate.swift */,
 				ABBBE22C23EFDEC40052AA54 /* GameScene.sks */,
 				ABBBE22E23EFDEC40052AA54 /* Actions.sks */,
@@ -112,6 +133,11 @@
 				ABBBE23723EFDEC50052AA54 /* Assets.xcassets */,
 				ABBBE23923EFDEC50052AA54 /* LaunchScreen.storyboard */,
 				ABBBE23C23EFDEC50052AA54 /* Info.plist */,
+				ABBBE26A23EFE0400052AA54 /* starfield.sks */,
+				AB10C23323F2591100D80B18 /* GameOverScene.swift */,
+				AB80F06F23F7B87B005CD343 /* MainMenu.swift */,
+				AB80F07323F7B9B7005CD343 /* MainMenu.sks */,
+				AB80F07A23F7C372005CD343 /* Button.swift */,
 			);
 			path = "asteriod game";
 			sourceTree = "<group>";
@@ -132,6 +158,18 @@
 				ABBBE25223EFDEC50052AA54 /* Info.plist */,
 			);
 			path = "asteriod gameUITests";
+			sourceTree = "<group>";
+		};
+		ABBBE25F23EFDF0B0052AA54 /* rsc */ = {
+			isa = PBXGroup;
+			children = (
+				AB80F07E23F7DC54005CD343 /* bullet.png */,
+				AB80F07823F7C071005CD343 /* play-btn.png */,
+				AB80F07C23F7C878005CD343 /* ufo-bg.jpg */,
+				ABBBE26E23EFEDB40052AA54 /* alien_enemy.png */,
+				ABBBE26423EFDFCB0052AA54 /* ufo.png */,
+			);
+			path = rsc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +276,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBBE26F23EFEDB40052AA54 /* alien_enemy.png in Resources */,
+				AB80F07F23F7DC54005CD343 /* bullet.png in Resources */,
+				ABBBE26523EFDFCB0052AA54 /* ufo.png in Resources */,
+				AB80F07923F7C071005CD343 /* play-btn.png in Resources */,
+				AB80F07423F7B9B7005CD343 /* MainMenu.sks in Resources */,
 				ABBBE23623EFDEC40052AA54 /* Main.storyboard in Resources */,
 				ABBBE22D23EFDEC40052AA54 /* GameScene.sks in Resources */,
 				ABBBE23823EFDEC50052AA54 /* Assets.xcassets in Resources */,
+				ABBBE26B23EFE0400052AA54 /* starfield.sks in Resources */,
 				ABBBE23B23EFDEC50052AA54 /* LaunchScreen.storyboard in Resources */,
 				ABBBE22F23EFDEC40052AA54 /* Actions.sks in Resources */,
+				AB80F07D23F7C878005CD343 /* ufo-bg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB80F07023F7B87B005CD343 /* MainMenu.swift in Sources */,
+				AB80F07B23F7C372005CD343 /* Button.swift in Sources */,
 				ABBBE23123EFDEC40052AA54 /* GameScene.swift in Sources */,
 				ABBBE23323EFDEC40052AA54 /* GameViewController.swift in Sources */,
+				AB10C23423F2591100D80B18 /* GameOverScene.swift in Sources */,
 				ABBBE22B23EFDEC40052AA54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +429,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -434,6 +483,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
