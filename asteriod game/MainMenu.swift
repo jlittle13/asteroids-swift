@@ -46,10 +46,10 @@ class MainMenu: SKScene, ButtonDelegate {
             button.delegate = self
         }
         let label = SKLabelNode(fontNamed: "Chalkduster")
-        label.fontSize = 150
+        label.fontSize = 50
         label.fontColor = SKColor.white
-        label.text = String(self.highScore)
-        label.position = CGPoint(x: self.frame.maxY/4, y: self.frame.maxX/4)
+        label.text = "highscore: " + String(self.highScore)
+        label.position = CGPoint(x: self.frame.maxX/2-150, y: self.frame.maxY/10)
         addChild(label)
     }
 }
